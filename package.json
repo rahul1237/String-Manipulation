@@ -1,0 +1,22 @@
+{
+  "name": "string",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahul1237/String-Manipulation.git"
+  },
+  "author": "rahul mahajan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rahul1237/String-Manipulation/issues"
+  },
+  "homepage": "https://github.com/rahul1237/String-Manipulation#readme",
+  "dependencies": {
+    "prompt": "^1.1.0"
+  }
+}
