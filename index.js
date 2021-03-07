@@ -1,35 +1,53 @@
 // case 1
 
-// let a='geeksforgeek'
-// var len = a.length
-// var x
-// var part_a=''
-// var part_b=''
+let string1 = 'geeksforgeeks';
+var string1_len = string1.length;
+var part_a = '';
+var part_b = '';
 
-// // ceil or floor value :)
-// for(x=0;x<Math.ceil(len/2);x++){
-//     part_a+=a[x]
-// }
-// for(x=Math.ceil(len/2);x<len;x++){
-//     part_b+=a[x]
-// }
+for(var i=0 ; i<Math.ceil(string1_len/2) ; i++){
+    part_a+=string1[i];
+}
 
-// a=part_a.toUpperCase()+part_b
-// console.log(a);
+for(var i=Math.ceil(string1_len/2) ; i<string1_len ; i++){
+    part_b+=string1[i];
+}
+
+var new_part_a = part_a.toUpperCase();
+
+var changed_string = new_part_a + part_b;
+
+console.log(changed_string);
 
 
 // case 2
 
-let a='rahula'
-var i = a.length
-b=''
+let string1 = 'geeksforgeeks';
+var string1_len = string1.length;
+var changed_string = '';
 
-for(j=0;j<Math.floor(i/2);j++){
-    b+=a[j].toUpperCase()
+for(var i=0 ; i<Math.ceil(string1_len/2) ; i++){
+    changed_string+=string1[i].toUpperCase();
 }
 
-for(j=Math.floor(i/2);j<i;j++){
-    b+=a[j]
+for(var i=Math.ceil(string1_len/2) ; i<string1_len ; i++){
+    changed_string+=string1[i];
 }
 
-console.log(b);
+console.log(changed_string);
+
+// Case 3
+
+let string1 = 'geeksforgeeks';
+var string1_len = string1.length;
+var half_string = Math.ceil(string1_len/2);
+var part_a;
+var part_b;
+
+part_a = string1.slice(0,half_string);
+var new_part_a = part_a.toUpperCase();
+part_b = string1.slice(half_string,string1_len);
+
+var changed_string = new_part_a+part_b;
+
+console.log(changed_string);
