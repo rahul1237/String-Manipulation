@@ -1,4 +1,4 @@
-// case 1
+// method 1
 
 let string1 = 'geeksforgeeks';
 var string1_len = string1.length;
@@ -20,9 +20,9 @@ var changed_string = new_part_a + part_b;
 console.log(changed_string);
 
 
-// case 2
+// method 2
 
-let string1 = 'geeksforgeeks';
+let string1 = 'gfg';
 var string1_len = string1.length;
 var changed_string = '';
 
@@ -36,9 +36,9 @@ for(var i=Math.ceil(string1_len/2) ; i<string1_len ; i++){
 
 console.log(changed_string);
 
-// Case 3
+// Method 3
 
-let string1 = 'geeksforgeeks';
+let string1 = 'geeks for geeks';
 var string1_len = string1.length;
 var half_string = Math.ceil(string1_len/2);
 var part_a;
